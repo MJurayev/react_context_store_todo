@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    min-height: 200px;
+    min-width: 200px;
+    height: 100%;
+}
+@keyframes rotating {
+    0%{
+        transform: rotate(0) translate(0 ,0px);
+    }
+    50%{
+        transform: rotate(180deg) ;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.loader{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    /* background-color: black; */
+    border-radius:50%;
+    border: 3px solid rgb(112, 212, 196);
+    border-top:3px solid white!important;
+    border-bottom:3px solid white!important;
+    /* border-left:1px solid initial; */
+    animation: rotating 0.5s linear infinite;
+}

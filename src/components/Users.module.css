@@ -1,0 +1,14 @@
+.container{
+    width: 50%;
+    min-height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: blue; */
+    border: 1px solid rgb(137, 137, 229);
+}
+.userList{
+    position: relative;
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.308); */
+    flex-direction: column;
+}
